@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="changeColor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PlanetControllerUi">
+   <children>
+      <ColorPicker fx:id="colorPicker" layoutX="119.0" layoutY="188.0" onAction="#changeColor" promptText="myColorPicker" />
+      <Label fx:id="CurrentName" layoutX="12.0" layoutY="14.0" prefHeight="17.0" prefWidth="156.0" text="Name" />
+      <Label fx:id="CurrentAge" layoutX="12.0" layoutY="43.0" prefHeight="17.0" prefWidth="156.0" text="Age" />
+      <Label fx:id="CurrentSize" layoutX="12.0" layoutY="72.0" prefHeight="17.0" prefWidth="156.0" text="size" />
+      <Label fx:id="CurrentRadian" layoutX="12.0" layoutY="103.0" prefHeight="17.0" prefWidth="156.0" text="radian" />
+      <Label fx:id="CurrentSpeed" layoutX="12.0" layoutY="137.0" prefHeight="17.0" prefWidth="156.0" text="speed" />
+      <Label fx:id="CurrentAngle" layoutX="12.0" layoutY="166.0" prefHeight="17.0" prefWidth="156.0" text="angle" />
+      <Label fx:id="CurrentColor" layoutX="12.0" layoutY="192.0" prefHeight="17.0" prefWidth="156.0" text="color" />
+      <Label fx:id="CurrentParent" layoutX="12.0" layoutY="218.0" prefHeight="17.0" prefWidth="156.0" text="parent" />
+
+       <Slider fx:id="AgeSlider" layoutX="122.0" layoutY="45.0" />
+      <Slider fx:id="SizeSlider" layoutX="122.0" layoutY="74.0" />
+      <Slider fx:id="RadianSlider" layoutX="122.0" layoutY="105.0" max="500.0" min="110.0" />
+      <Slider fx:id="SpeedSlider" blockIncrement="100.0" layoutX="122.0" layoutY="139.0" max="1.0" />
+      <Slider fx:id="AngleSlider" layoutX="122.0" layoutY="168.0" />
+      <ChoiceBox fx:id="ParentChoice" layoutX="107.0" layoutY="214.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

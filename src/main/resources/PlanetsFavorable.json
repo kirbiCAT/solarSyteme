@@ -1,0 +1,8 @@
+{
+    "water": 70,
+    "temperature": 15,
+    "gravity": 9.8,
+    "atmosphereDensity": 30,
+    "mineralDeposition": 24
+
+  }

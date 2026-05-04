@@ -1,0 +1,105 @@
+[ {
+  "name" : "earth",
+  "age" : 1,
+  "size" : 4,
+  "radian" : 170,
+  "speed" : 0.006,
+  "angle" : 7.628890614025295,
+  "color" : "blue",
+  "parent" : "sun",
+  "active" : false,
+  "x" : 537.9431647759819,
+  "y" : 445.7115453032247,
+  "userProperties" : {
+    "userWater" : 100,
+    "userTemperature" : 1,
+    "userGravity" : 1.0,
+    "userAtmosphereDensity" : 1,
+    "userMineralDeposition" : 1
+  },
+  "composition" : {
+    "H2O" : true,
+    "CO2" : false,
+    "He" : false,
+    "O2" : false,
+    "Si" : false
+  }
+}, {
+  "name" : "Urath",
+  "age" : 1,
+  "size" : 10,
+  "radian" : 270,
+  "speed" : 0.011,
+  "angle" : 22.793838130310178,
+  "color" : "red",
+  "parent" : "sun",
+  "active" : false,
+  "x" : 489.30892716617166,
+  "y" : 395.36563253850744,
+  "userProperties" : {
+    "userWater" : 100,
+    "userTemperature" : 1,
+    "userGravity" : 1.0,
+    "userAtmosphereDensity" : 1,
+    "userMineralDeposition" : 1
+  },
+  "composition" : {
+    "H2O" : true,
+    "CO2" : false,
+    "He" : false,
+    "O2" : false,
+    "Si" : false
+  }
+}, {
+  "name" : "moon",
+  "age" : 1,
+  "size" : 2,
+  "radian" : 30,
+  "speed" : 0.035,
+  "angle" : 36.672318164259195,
+  "color" : "white",
+  "parent" : "earth",
+  "active" : false,
+  "x" : 553.4701138722043,
+  "y" : 420.04222798150147,
+  "userProperties" : {
+    "userWater" : 100,
+    "userTemperature" : 1,
+    "userGravity" : 1.0,
+    "userAtmosphereDensity" : 1,
+    "userMineralDeposition" : 1
+  },
+  "composition" : {
+    "H2O" : true,
+    "CO2" : false,
+    "He" : false,
+    "O2" : false,
+    "Si" : false
+  }
+}, {
+  "name" : "Jupiter",
+  "age" : 1,
+  "size" : 28,
+  "radian" : 140,
+  "speed" : 0.018,
+  "angle" : 19.265495769679546,
+  "color" : "#0000FF",
+  "parent" : "sun",
+  "active" : false,
+  "x" : 525.8984063292205,
+  "y" : 411.52762544089467,
+  "userProperties" : {
+    "userWater" : 100,
+    "userTemperature" : 1,
+    "userGravity" : 1.0,
+    "userAtmosphereDensity" : 1,
+    "userMineralDeposition" : 1
+  },
+  "composition" : {
+    "H2O" : true,
+    "CO2" : false,
+    "He" : false,
+    "O2" : false,
+    "Si" : false
+  }
+} ]
